@@ -1,5 +1,9 @@
 function Footer() {
-  return <h1>Tes</h1>;
+  return (
+    <footer>
+      <p>Ini footer &copy;</p>
+    </footer>
+  );
 }
 
 export default Footer;
