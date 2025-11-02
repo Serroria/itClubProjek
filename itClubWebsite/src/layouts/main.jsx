@@ -13,7 +13,7 @@ import Footer from "../components/Footer.jsx";
 //   </React.StrictMode>
 function MainLayout({ children }) {
   return (
-    <div className="app-container max-w-full">
+    <div className="app-container w-full overflow-x-hidden">
       <Navbar />
       <main>{children}</main>
       <Footer />

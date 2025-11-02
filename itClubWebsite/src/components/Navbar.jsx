@@ -8,7 +8,7 @@ function Navbar() {
     console.log("Kata kunci pencarian: ", searchTerm);
   };
   return (
-    <nav className="navbar flex item-center w-full max-w-9 bg-[#333] p-8">
+    <nav className="navbar flex item-center w-full max-w-9 p-8">
       <div className="navbar-brand">Logo</div>
       {/* Search Bar */}
       <form
