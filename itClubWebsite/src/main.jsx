@@ -1,10 +1,11 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.jsx'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App.jsx"; // Impor komponen App utama
+import "./index.css"; // (Jika kamu punya file index.css untuk styling global)
 
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
+// Ini adalah kode yang "memulai" React
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <React.StrictMode>
     <App />
-  </StrictMode>,
-)
+  </React.StrictMode>
+);

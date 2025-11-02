@@ -1,6 +1,9 @@
 {
   "dependencies": {
+    "@headlessui/react": "^2.2.9",
+    "@heroicons/react": "^2.2.0",
     "@tailwindcss/vite": "^4.1.16",
+    "react-router-dom": "^7.9.5",
     "vite": "^7.1.12"
   },
   "scripts": {
